@@ -7,9 +7,15 @@ int main()
 {
     srand((unsigned int)std::time(NULL));
     dice a;
-    std::cout << a.get_scale() << std::endl;
+    dice b;
+    dice c;
+    dice d;
+    dice e;
     std::cout << a.throw_dice() << std::endl;
-    std::cout << a.throw_dice() << std::endl;
-    std::cout << a.throw_dice() << std::endl;
-    std::cout << a.throw_dice() << std::endl;
+    std::cout << b.throw_dice() << std::endl;
+    std::cout << c.throw_dice() << std::endl;
+    std::cout << d.throw_dice() << std::endl;
+    std::cout << e.throw_dice() << std::endl;
+
+    return 0;
 }
