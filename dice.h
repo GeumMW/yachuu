@@ -6,12 +6,12 @@
 class dice
 {
 private:
-    int scale;
+    int scale; // 눈금
 
 public:
     dice() { scale = 0; }
-    int throw_dice();
-    int get_scale();
+    void throw_dice(); // 주사위 굴리기
+    int get_scale(); // 주사위 눈금 반환
 };
 
 #endif
